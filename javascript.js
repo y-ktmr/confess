@@ -10,6 +10,7 @@ document.addEventListener("DOMContentLoaded", function(){
         var insertNum = document.createElement("p");
         insertNum.innerHTML = (containerCount - i + 1) + "/" + (containerCount + 1);
         insertNum.style.marginTop = 1 + "em";
+        insertNum.style.fontSize = 0.75 + "em";
         insertNum.style.textAlign = "right";
         container[i].appendChild(insertNum);
     }
